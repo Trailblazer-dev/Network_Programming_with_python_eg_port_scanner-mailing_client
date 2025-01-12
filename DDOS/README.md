@@ -58,5 +58,6 @@ Install Python and ensure the required modules are available in your environment
    - `port`: Port number to connect to (e.g., `80` for HTTP).
    - `fake_ip`: A fake IP address used in the `Host` header.
 3. Run the script:
+
    ```bash
    python script_name.py
