@@ -15,7 +15,7 @@ server = smtplib.SMTP('smtp.mailgun.com',587)
 server.ehlo() #this is a command that we use to start the connection
 
 
-server.login('postmaster@sandbox13802db789414673a7351a88799ba94c.mailgun.org','c5e950876db80b3ddc63d1d2b7aea968-7113c52e-69ab7f3f') # Don't use ur password as text instead use encrypted password
+server.login('email address','password') # Don't use ur password as text instead use encrypted password
 
 
 msg = MIMEMultipart()
